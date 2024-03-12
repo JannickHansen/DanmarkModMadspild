@@ -88,35 +88,14 @@
 
 .slideshow-container .slideshow-inner {
     white-space: nowrap;
-    animation: slide 30s infinite;
+    animation: slide 30s linear infinite;
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0%);
     }
-    10% {
-        transform: translateX(0%);
-    }
-    20% {
-        transform: translateX(-33.5%);
-    }
-    40% {
-        transform: translateX(-33.5%);
-    }
-    50% {
-        transform: translateX(0%);
-    }
-    60% {
-        transform: translateX(0%);
-    }
-    70% {
-        transform: translateX(-33.5%);
-    }
-    90% {
-        transform: translateX(-33.5%);
-    }
     100% {
-        transform: translateX(0%);
+        transform: translateX(-224.3%);
     }
 }
