@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="../static/CSS/style.css" th:href="@{css/style.css}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madspild</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #00a78e;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #00a78e;
+        }
+        .section2 {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .section2 h2 {
+            color: #00a78e;
+        }
+        .section p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="section">
+        <h2>Organisationer</h2>
+        <p>Vi samarbejder med disse organisationer!</p>
+        <h3>Too Good To Go</h3>
+        <img src="../static/img/TGTG.png" length="70%" width="30%">
+        <p>Too Good To Go er en virksomhed som samarbejder med resturanter verden over, for at sikre madspild.</p>
+        <div class="button-container">
+        <a href="https://https://www.toogoodtogo.com/da" class="round-button">Too Good Too Go</a>
+        </div>
+
+        <h3>Stop Spild Af Mad</h3>
+        <img src="../static/img/SSAM.png" length="70%" width="30%">
+        <p>Stop Spild af Mad er en organisation der hjælper forbrugere til at undgå madspild i hjemmet</p>
+        <div class="button-container">
+            <a href="https://stopspildafmad.org/" class="round-button">STOP spild af mad</a>
+        </div>
+    </div>
+    <div class="section2">
+        <h2>Lad os bekæmpe madspild sammen!</h2>
+
+        <button>Lær mere</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kinky Fætter. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
