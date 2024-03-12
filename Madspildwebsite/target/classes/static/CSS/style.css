@@ -76,23 +76,46 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    line-height: 300px;
 }
 
 .slideshow-container img {
     width: 10%;
     height: auto;
+    vertical-align: middle;
 }
 
 .slideshow-container .slideshow-inner {
     white-space: nowrap;
-    animation: slide 5s infinite;
+    animation: slide 30s infinite;
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0%);
     }
+    10% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(-33.5%);
+    }
+    40% {
+        transform: translateX(-33.5%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    60% {
+        transform: translateX(0%);
+    }
+    70% {
+        transform: translateX(-33.5%);
+    }
+    90% {
+        transform: translateX(-33.5%);
+    }
     100% {
-        transform: translateX(calc(110%));
+        transform: translateX(0%);
     }
 }
