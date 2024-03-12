@@ -76,11 +76,13 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    line-height: 300px;
 }
 
 .slideshow-container img {
     width: 10%;
     height: auto;
+    vertical-align: middle;
 }
 
 .slideshow-container .slideshow-inner {
