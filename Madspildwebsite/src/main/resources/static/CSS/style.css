@@ -55,6 +55,7 @@
 }
 .round-button {
     display: inline-block;
+    font-weight: bold;
     background-color: seagreen;
     color: #fff;
     text-decoration: none;
