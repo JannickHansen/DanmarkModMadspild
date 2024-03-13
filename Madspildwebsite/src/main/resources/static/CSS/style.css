@@ -23,7 +23,7 @@
     background-color: lightgoldenrodyellow;
     color: seagreen;
     padding: 100px;
-    height: 650px;
+    height: 700px;
 }
 
 .text-container {
@@ -75,6 +75,7 @@
     display: inline-block;
     vertical-align: bottom;
     margin-left: 5%;
+    margin-top: 20px;
 }
 
 footer {
