@@ -25,6 +25,15 @@
     padding: 100px;
     height: 700px;
 }
+.background4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    color: seagreen;
+    padding: 100px;
+    height: 900px;
+}
 
 .text-container {
     display: flex;
@@ -72,6 +81,13 @@
 .pictureOrganisation {
     max-width: 30%;
     height: 520px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.pictureOrganisation2 {
+    max-width: 50%;
     display: inline-block;
     vertical-align: bottom;
     margin-left: 5%;
