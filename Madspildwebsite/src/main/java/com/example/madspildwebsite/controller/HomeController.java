@@ -12,6 +12,8 @@ public class HomeController {
     public String forbruger(){
         return "forbruger";
     }
+    @GetMapping("/ForbrugerInfo")
+    public String forbrugerinfo() {return "ForbrugerInfo";}
     @GetMapping("/organisationerforside")
     public String OrganisationerForside() {return "OrganisationerForside";}
     @GetMapping("/SSL")
@@ -26,4 +28,8 @@ public class HomeController {
     public String header(){
         return "header";
     }
+    @GetMapping("/virksomhederForside")
+    public String virkforside() {return "virksomhederForside";}
+    @GetMapping("/virksomhederkontakt")
+    public String virkkontakt() {return "virksomhedkontakt";}
 }

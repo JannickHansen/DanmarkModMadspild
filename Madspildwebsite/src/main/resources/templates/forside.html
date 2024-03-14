@@ -25,6 +25,43 @@
     </style>
 </head>
 <body>
+<header>
+    <a href="/">
+    <img src="../static/img/Nytlogo.png" th:src="@{img/Nytlogo.png}" alt="Logo" class="header-logo">
+    </a>
+    <h1 class="header-text">Danmark mod madspild</h1>
+</header>
+
+<div class="container" style="text-align: center;">
+    <div class="button-container">
+        <a href="/" class="round-button">Forside</a>
+    </div>
+    <div class="button-container dropdown-container">
+        <a href="/forbruger" class="round-button">Forbruger</a>
+        <div class="dropdown-content">
+            <a href="/ForbrugerInfo">Info</a>
+        </div>
+    </div>
+    <div class="button-container dropdown-container">
+        <a href="/virksomhederForside" class="round-button">Virksomheder</a>
+        <div class="dropdown-content">
+            <a href="/virksomhederkontakt">Kontakt</a>
+        </div>
+    </div>
+    <div class="button-container dropdown-container">
+        <a href="/organisationerforside" class="round-button">Organisationer</a>
+        <div class="dropdown-content">
+            <a href="/SSL">Stop Spild Lokalt</a>
+            <a href="/TGTG">Too Good To Go</a>
+            <a href="/MNSTRT">Fødevarestyrelsen</a>
+            <a href="/LNDBRG">Landbrugsstyrrelsen</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<body>
 <div class="background1">
     <div class="text-container">
         <div class="bigTextOptionLeft">Der er langt mere madspild i Danmark end der burde være.</div>
@@ -46,10 +83,10 @@
             <div class="smallTextOption">Derfor beder vi om et fast månedligt beløb ud fra devisen ”mange bække små”. Så har du 9 kr. eller mere, at bidrage med om måneden, så er du med til at gøre en kæmpe forskel for vores organisation og kampen mod madspild.
                 Du kan også give en enkelt donation – alle beløb er en hjælp!</div>
         </div>
-        <div class="button-container">
-            <a href="https://stopspildlokalt.dk/" class="round-button">Læs mere Her</a>
-        </div>
     </div>
+</div>
+<div class="button-container1">
+    <a href="https://stopspildlokalt.dk/" class="round-button">Læs mere Her</a>
 </div>
 </body>
 <body>

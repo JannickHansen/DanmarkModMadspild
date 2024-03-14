@@ -7,6 +7,43 @@
   <link rel="stylesheet" href="../static/CSS/style.css" th:href="@{css/style.css}">
 </head>
 <body>
+<header>
+  <a href="/">
+  <img src="../static/img/Nytlogo.png" th:src="@{img/Nytlogo.png}" alt="Logo" class="header-logo">
+  </a>
+  <h1 class="header-text">Danmark mod madspild</h1>
+</header>
+
+<div class="container" style="text-align: center;">
+  <div class="button-container">
+    <a href="/" class="round-button">Forside</a>
+  </div>
+  <div class="button-container dropdown-container">
+    <a href="/forbruger" class="round-button">Forbruger</a>
+    <div class="dropdown-content">
+      <a href="/ForbrugerInfo">Info</a>
+    </div>
+  </div>
+  <div class="button-container dropdown-container">
+    <a href="/virksomhederForside" class="round-button">Virksomheder</a>
+    <div class="dropdown-content">
+      <a href="/virksomhederkontakt">Kontakt</a>
+    </div>
+  </div>
+  <div class="button-container dropdown-container">
+    <a href="/organisationerforside" class="round-button">Organisationer</a>
+    <div class="dropdown-content">
+      <a href="/SSL">Stop Spild Lokalt</a>
+      <a href="/TGTG">Too Good To Go</a>
+      <a href="/MNSTRT">Fødevarestyrelsen</a>
+      <a href="/LNDBRG">Landbrugsstyrrelsen</a>
+    </div>
+  </div>
+</div>
+
+
+</body>
+<body>
 <div class="background1">
   <div class="text-container">
     <div class="bigTextOptionLeft">LAD OS BEKÆMPE <strong>MADSPILD</strong> SAMMEN<br><br>Madspild er et stort problem,
