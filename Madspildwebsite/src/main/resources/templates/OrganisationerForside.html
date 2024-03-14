@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Organisation Forside</title>
+  <link rel="stylesheet" href="../static/CSS/style.css" th:href="@{css/style.css}">
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image {
+      max-width: 200px;
+      height: auto;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .container {
+      width: 100%;
+      margin: auto;
+      padding: 20px 0;
+      text-align: center;
+      background-color: darkseagreen;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="text-container">
+    <div class="overskriftTopAfSiden">Organisationer</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
+    <a href="/SSL">
+      <img class="image" src="../static/img/SSL.png" th:src="@{img/SSL.png}" alt="Image 1">
+    </a>
+    <a href="/TGTG">
+      <img class="image" src="../static/img/TGTG.png" th:src="@{img/TGTG.png}" alt="Image 2">
+    </a>
+    <a href="MNSTRT">
+      <img class="image" src="../static/img/ministerenerpåbesøg.png" th:src="@{img/ministerenerpåbesøg.png}" alt="Image 3">
+    </a>
+    <a href="LNDBRG">
+      <img class="image" src="../static/img/landbruglogo.png" th:src="@{img/landbruglogo.png}" alt="Image 4">
+    </a>
+  </div>
+</div>
+</body>
+<body>
+<div class="background3">
+  <div class="centered-container">
+    <div class="text-container">
+      <div class="highlightedChoice"><u>Vores Samarbejdspartnere</u></div>
+    </div>
+    <div class="flex-container">
+      <div class="smallTextOption">Vi har allieret os med nogle af Danmarks førende organisationer indenfor bekæmpelsen af madspild. Arbejdet med disse organisationer skal
+      hjælpe med at få Danmarks madspild ned til et bæredygtigt niveau, men det er en kamp som kræver at alle hjælper til. En stor del af Danmarks madspild stammer nemlig
+      fra husstande, detail-branchen og restauranter. Af denne grund har vi lavet et opslagsværk hvor netop du kan se hvordan de forskellige organisationer kan hjælpe dig i din dagligdag,
+       om du er virksomhed eller privat.</div>
+      <div class="smallTextOption">Madspild er nemlig en størrelse som kan undgås alle steder i dagligdagen. Fra høsten på marken til delikatessen, fra butikken til køkkenbordet, fra opvasken til skraldespanden.
+        Mad er på en rejse gennem det danske samfund, og under hvert trin kan mad spildes. Derfor er det vores mission at give dig muligheden for at koble dig til disse organisationer,
+      så de kan hjælpe dig med at nedskære dit madspild, om du er studerende, forældre eller virksomhed. Disse organisationer samt alle vores andre samarbejdspartnere går forrest i kampen mod madspild,
+       så Danmark kan blive et mere bæredygtigt samfund i fremtiden.</div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2024 Kinky Fætter. All rights reserved.</p>
+</footer>
+</body>
+</html>
