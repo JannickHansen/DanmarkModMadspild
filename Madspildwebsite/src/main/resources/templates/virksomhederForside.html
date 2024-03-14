@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>VirksomhederForside</title>
+    <link rel="stylesheet" href="../static/CSS/style.css" th:href="@{css/style.css}">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image {
+            max-width: 200px;
+            height: auto;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            padding: 20px 0;
+            text-align: center;
+            background-color: darkseagreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="text-container">
+        <div class="overskriftTopAfSiden">Virksomheder</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <a href="https://www.arla.dk/om-arla/omtanke/maden/madspild/">
+            <img class="image" src="../static/img/arla.png" th:src="@{img/arla.png}" alt="Image 1">
+        </a>
+        <a href="https://lagkagehuset.dk/madspild">
+            <img class="image" src="../static/img/lagkagehuset.png" th:src="@{img/lagkagehuset.png}" alt="Image 2">
+        </a>
+        <a href="https://www.maersk.com/">
+            <img class="image" src="../static/img/maersk.png" th:src="@{img/maersk.png}" alt="Image 3">
+        </a>
+        <a href="https://madspild.rema1000.dk/">
+            <img class="image" src="../static/img/rema1000.jpg" th:src="@{img/rema1000.jpg}" alt="Image 4">
+        </a>
+        <a href="https://www.sallinggroup.com/baeredygtighed/madspild">
+            <img class="image" src="../static/img/salling.png" th:src="@{img/salling.png}" alt="Image 5">
+        </a>
+        <a href="https://meny.dk/klima">
+            <img class="image" src="../static/img/meny.jpg" th:src="@{img/meny.jpg}" alt="Image 6">
+        </a>
+        <a href="https://www.mcdonalds.com/dk/da-dk/merepaamenuen/madspild-og-genanvendelse.html">
+            <img class="image" src="../static/img/mcdonalds.png" th:src="@{img/mcdonalds.png}" alt="Image 7">
+        </a>
+    </div>
+</div>
+</body>
+<body>
+<div class="background3">
+    <div class="centered-container">
+        <div class="text-container">
+            <div class="highlightedChoice"><u>Vores Samarbejdspartnere</u></div>
+        </div>
+        <div class="flex-container">
+            <div class="smallTextOption">Mange virksomheder har allerede meldt sig ind i kampen mod madspild. Vi hjælper dem med at hjælpe dem selv, samfundet og miljøet.
+            <br><br>Fødevareindustrien var i 2020 ansvarlige for 385.000 ton madspild, hvorunder mejerier er ansvarlige for næsten 218.000 ton. Derudover er "anden fødevareindustri",
+            som hovedsageligt indeholder frasortering af fødevare pga. størrelse, form eller facon, ansvarligt for næsten 156.000 ton madspild... årligt.<br><br>
+            Vores samarbejdspartnere går forrest i kampen mod madspild, og er stolte af dagligt at gøre en forskel for miljøet. </div>
+            <img class="pictureOrganisation" src="../static/img/holdinghand.png" th:src="@{img/holdinghand.png}">
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Kinky Fætter. All rights reserved.</p>
+</footer>
+</body>
+</html>
